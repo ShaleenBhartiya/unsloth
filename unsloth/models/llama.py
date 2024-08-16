@@ -1275,7 +1275,7 @@ class FastLlamaModel:
         dtype             = None,
         load_in_4bit      = True,
         token             = None,
-        device_map        = "sequential",
+        device_map        = "auto",
         rope_scaling      = None,
         fix_tokenizer     = True,
         model_patcher     = None,
